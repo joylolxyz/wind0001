@@ -3,11 +3,13 @@
 
  <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe> 
   
-<audio controls autoplay>
-  <source src="song.ogg" type="audio/ogg">
-  <source src="song.mp3" type="audio/mpeg">
+ <audio controls style="display:none" id="audio">
+  <source src="https://cdn.discordapp.com/attachments/967462208395165736/971497444296781864/song.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+<script>
+document.getElementById('audio').play();
+</script>
 
 </body>
 </html>
